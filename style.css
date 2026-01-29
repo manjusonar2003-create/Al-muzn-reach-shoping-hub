@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0e0e0e;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #000, #222);
+}
+
+header h1 {
+  color: #d4af37;
+  font-size: 36px;
+}
+
+.btns a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: #d4af37;
+  color: #000;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+section {
+  padding: 30px 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: #1c1c1c;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+footer {
+  background: #000;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
